@@ -31,6 +31,8 @@ X[X == '?'] = np.nan  # got result 85.86%
 # convert to numeric
 X = X.astype('float32')
 # impute missing values as the mean  got result 79.80% 搭配 X[X == '?'] == np.nan
+# Imputation transformer for completing missing values
+# class sklearn.preprocessing.Imputer(missing_values='NaN', strategy='mean', axis=0, verbose=0, copy=True)
 # imputer = Imputer()
 # imputed_x = imputer.fit_transform(X)
 # X = imputed_x
