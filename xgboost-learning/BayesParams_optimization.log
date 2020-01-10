@@ -1,0 +1,25 @@
+load data done
+in bo search, s_acu: 0.705050 [beat -100.000000], best_iter: 500
+in bo search, s_acu: 0.739125 [beat 0.705050], best_iter: 9
+not beat best score [0.739125], s_acu: 0.700400%, best_iter: 106
+not beat best score [0.739125], s_acu: 0.700375%, best_iter: 30
+start search
+not beat best score [0.739125], s_acu: 0.680275%, best_iter: 50
+not beat best score [0.739125], s_acu: 0.729575%, best_iter: 33
+not beat best score [0.739125], s_acu: 0.707950%, best_iter: 109
+not beat best score [0.739125], s_acu: 0.676550%, best_iter: 247
+not beat best score [0.739125], s_acu: 0.664150%, best_iter: 8
+not beat best score [0.739125], s_acu: 0.679375%, best_iter: 3
+not beat best score [0.739125], s_acu: 0.685675%, best_iter: 3
+not beat best score [0.739125], s_acu: 0.677150%, best_iter: 50
+not beat best score [0.739125], s_acu: 0.675300%, best_iter: 8
+not beat best score [0.739125], s_acu: 0.697450%, best_iter: 9
+not beat best score [0.739125], s_acu: 0.657850%, best_iter: 102
+not beat best score [0.739125], s_acu: 0.542100%, best_iter: 1
+not beat best score [0.739125], s_acu: 0.678425%, best_iter: 21
+not beat best score [0.739125], s_acu: 0.684500%, best_iter: 3
+not beat best score [0.739125], s_acu: 0.682400%, best_iter: 99
+best parameters and target value:
+{'target': 0.739125, 'params': {'alpha': 0.3, 'colsample_bytree': 1.0, 'eta': 0.36, 'gamma': 0.63, 'max_delta_step': 9.8, 'max_depth': 8.0, 'min_child_weight': 10.05, 'subsample': 0.84}}
+model saved as model.test
+error=0.265600
